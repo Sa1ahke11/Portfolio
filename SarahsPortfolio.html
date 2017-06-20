@@ -10,20 +10,27 @@
         }
         
     	#contents {
-        	position:static;
+        	top: 75px;
+        	border-radius: 10px;
+        	position:relative;
         	background-color: orange;
             width: 150px;
             
         }
         
         #details {
+        	text-font: sans-serif;
+        	border-radius: 10px;
         	position:static;
         	background-color: yellow;
             width: 475px
         }
         
         #skills {
-        	position:static;
+        	position: relative;
+            left: 180px;
+            bottom: 82px;
+        	border-radius: 10px;
         	background-color: purple;
             color: white;
             width: 200px
@@ -34,7 +41,7 @@
 	
     <image src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/17626127_240244916442371_8579497115035919645_n.jpg?oh=02436ab8f4acc6f959ceaa1501779f66&oe=59E57B75" id="ProPic"></image>
     
-	<h1 style="background-color:maroon;width:175px;color:white;text-align:center;position:fixed;">Sarah Kerr</h1>
+	<h1 style="background-color:maroon;width:175px;color:white;text-align:center;position:fixed;text-shadow: 3px 2px green;">Sarah Kerr</h1>
     
     <div id="contents">
     	<h2>Contents</h2>
@@ -47,13 +54,23 @@
     	</ul>
     </div>
     
-    <div id="details">
-    	<h2>Details</h2>
-    </div>
-    
-	<div id="skills">
+    <div id="skills">
     	<h2>Skills</h2>
+        <ul>
+        	<li>Pro Popcorn Popper</li>
+            <li>Long-term Babysitter</li>
+            <li>Amatuer Post/Pointgaurd Baller</li>
+            <li>Worship Band Drummer</li>
+            <li>Annuel Musical Singer/Actor/Set-maker</li>
+        </ul>
     </div>
 
+    
+    <div id="details">
+    	<h2>Details</h2>
+        <p>Born September the 27th, 2001, at 5:37a.m. Rising high school Junior at Kerr Homeschool. Girls Who Code SIP attendee.</p>
+    </div>
+    
+	
 </body>
 </html>
