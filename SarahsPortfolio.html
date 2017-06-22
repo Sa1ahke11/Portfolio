@@ -10,23 +10,38 @@
         }
         
     	#contents {
-        	position:static;
+        	top: 75px;
+        	border-radius: 10px;
+        	position:relative;
         	background-color: orange;
             width: 150px;
             
         }
         
         #details {
+        	text-font: sans-serif;
+        	border-radius: 10px;
         	position:static;
         	background-color: yellow;
             width: 475px
         }
         
         #skills {
-        	position:static;
+        	position: relative;
+            left: 180px;
+            bottom: 82px;
+        	border-radius: 10px;
         	background-color: purple;
             color: white;
             width: 200px
+        }
+        
+        #bio {
+        	text-font: sans-serif;
+        	border-radius: 10px;
+        	position:static;
+        	background-color: blue;
+            width: 475px
         }
     </style>
 </head>
@@ -34,7 +49,9 @@
 	
     <image src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/17626127_240244916442371_8579497115035919645_n.jpg?oh=02436ab8f4acc6f959ceaa1501779f66&oe=59E57B75" id="ProPic"></image>
     
-	<h1 style="background-color:maroon;width:175px;color:white;text-align:center;position:fixed;">Sarah Kerr</h1>
+	<h1 style="background-color:maroon;width:175px;color:white;text-align:center;position:fixed;text-shadow: 3px 2px green;">Sarah Kerr</h1>
+    
+    <p style="color: white;">Phone: 737-400-1988 Email: Sa1ahKe11@gmail.com</p>
     
     <div id="contents">
     	<h2>Contents</h2>
@@ -42,18 +59,50 @@
         	<li><a href="#details">Details</a></li>
         	<li><a href="#skills">Skills</a></li>
             <li>Fun Facts</li>
-            <li><a>Bio</a></li>
+            <li><a href="#bio">Bio</a></li>
             <li><a>Backstory</a></li>
+            <li><a href="#code_skills">Code Skills</a></li>
     	</ul>
     </div>
     
-    <div id="details">
-    	<h2>Details</h2>
-    </div>
-    
-	<div id="skills">
+    <div id="skills">
     	<h2>Skills</h2>
+        <ul>
+        	<li>Pro Popcorn Popper</li>
+            <li>Long-term Babysitter</li>
+            <li>Amatuer Post/Pointgaurd Baller</li>
+            <li>Worship Band Drummer</li>
+            <li>Annuel Musical Singer/Actor/Set-maker</li>
+        </ul>
     </div>
 
+    
+    <div id="details">
+    	<h2>Details</h2>
+        <p>Born September the 27th, 2001, at 5:37a.m. Rising high school Junior at Kerr Homeschool. Girls Who Code SIP attendee. Adress: 1103 Rockrose Ct. Leander, TX, 78641. </p>
+    </div>
+    
+    <div id="bio">
+    	<h2>Bio</h2>
+        <p>I am a 15-year-old Christian homeschooled girl living in Leander Texas. I enjoy reading and watching my favorite shows with my sister in my free time. I also enjoy coding and am learning about programming on Khan Academy, Codecademy, and at Girls Who Code. </p>
+    </div>
+    
+    <div id="backstory">
+    	
+    </div>
+    
+    <div id="code_skills">
+    	<h2>Code Skills</h2>
+        <ul>
+        	<li>Variables: A variable can be used to basically store an element under the name that you choose. i.e. 'var wid = 250;'<image src="Screenshot(3).png"></image></li>
+        	<li>Functions: A function is like a variable, but instead of storing elements, it can store lines of code that go into affect when a function is called. i.e.'var start = function() {speed++;};'</li>
+        	<li>Conditionals: A conditional is used in a program to check if one element is greater than, less than, equal to, or some combination of those, another element. i.e. 'if res1121 == 1: function()'"</li>
+            <li>Loops: A loop can be used to repeat a series of lines of code for a specific number of times or until a specific requirement is met. i.e. 'while g != 4: g++;'</li>
+            <li>Lists: A list is a series of values of the same element. You can call a specific item of a list by using index, add to a list by using extend or append, and so much more. Lists are useful in python because you can't use class in python to my knowledge, and it's handy to store a series of values wihtout naming them individually.</li>
+            
+        </ul>
+    </div>
+    
+	
 </body>
 </html>
